@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
 const mongoose_delete = require('mongoose-delete');
-const randomstring = require('randomstring');
+const randomstring = require('randomstring');             
 const slugify = require('slugify');
 
 const schema = mongoose.Schema(
